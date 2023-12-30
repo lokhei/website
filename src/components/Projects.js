@@ -1,7 +1,18 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import noEntry from "../assets/img/project/filtered_NoEntry0.jpg";
+import noEntry from "../assets/img/project/NoEntry.jpg";
 import KF from "../assets/img/project/kitchen.jpg";
+import CG from "../assets/img/project/CG.png";
+import gol from "../assets/img/project/gol.png";
+import ridesharing from "../assets/img/project/ridesharing.png";
+import bse from "../assets/img/project/bse.png";
+import scotland_yard from "../assets/img/project/scotland-yard.png";
+import cgi from "../assets/img/project/cgi.jpg"
+import amazon from "../assets/img/project/amazon.png"
+import inductosense from "../assets/img/project/inductosense.jpeg"
+
+
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,12 +22,12 @@ export const Projects = () => {
     {
       title: "Ridesharing Simulation",
       description: " Developed a simulation model of a spontaneous ridesharing system to implement different strategies and used Python to perform statistical analysis for evaluation",
-      imgUrl: noEntry,
+      imgUrl: ridesharing,
     },
     {
       title: "Olympoid",
       description: "3D Olympoid modelled and animated pair figure skating in Maya",
-      imgUrl: noEntry,
+      imgUrl: cgi,
     },
     {
       title: "Kitchen Feud",
@@ -26,7 +37,7 @@ export const Projects = () => {
     {
       title: "BSE",
       description: "Worked with the Bristol Stock Exchange to determine the parameters that produce the highest revenue. Then extended the code by adding a new adaptive trader that proved to perform better",
-      imgUrl: noEntry,
+      imgUrl: bse,
     },
     {
       title: "No Entry Sign Detector",
@@ -36,7 +47,7 @@ export const Projects = () => {
     {
       title: "C++ Graphics Renderer",
       description: "A C++ program that renders a Cornell Box scene using various techniques, including wireframing, rasterisations and ray tracing.s",
-      imgUrl: noEntry,
+      imgUrl: CG,
     },
     {
       title: "History Trails",
@@ -46,13 +57,13 @@ export const Projects = () => {
     {
       title: "Game of Life",
       description: "parallel and distributed implementations of Conway’s Game of Life in Go, using remote-procedure-calls to link multiple AWS nodes",
-      imgUrl: noEntry,
+      imgUrl: gol,
     },
    
     {
       title: "Scotland Yard",
       description: "Wrote a Java program to allow users to play Scotland Yard board game using OOP paradigms and design patterns",
-      imgUrl: noEntry,
+      imgUrl: scotland_yard,
     },
   ];
 
@@ -60,16 +71,14 @@ export const Projects = () => {
     {
       title: "Amazon",
       description: "Automated the selection of Getty images to purchase for the purposes of display on Alex devices, by targeting high-volume failing entity requests and employing serverless architecture",
-      imgUrl: noEntry,
+      imgUrl: amazon,
     },
     {
       title: "Inductosense",
       description: "Displayed raw data in various formats using React and Typescript to provide clear and informative visualisations which highlighted trends and problematic data points",
-      imgUrl: noEntry,
+      imgUrl: inductosense,
     },
   ];
-
-
 
 
   return (
