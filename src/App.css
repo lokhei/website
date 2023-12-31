@@ -438,6 +438,75 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+/************Project Details*****/
+.projectDetail {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  max-width: 50%; /* Adjust the maximum width based on your design */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto; /* Center the div horizontally */
+  position: relative;
+
+}
+
+.projectDetail h2 {
+  color: #edeaea;
+}
+
+.projectDetail img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.projectDetail p {
+  color: #777;
+}
+
+.projectDetail span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.projectDetail .codeButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.projectDetail .codeButton:hover {
+  background-color: #0056b3;
+}
+
+
+.backButton {
+  background-image: url('./assets/img/back.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px; 
+  font-size: 16px;
+}
+
+.backButton:hover {
+  background-color: #0056b3;
+}
+
 
 /************ Footer ************/
 .footer {
@@ -448,15 +517,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-repeat: no-repeat;
 }
 
-.new-email-bx {
-  background: #fff;
-  padding: 5px;
-  border-radius: 20px;
-  position: relative;
-  z-index: 0;
-  display: flex;
-  align-items: center;
-}
 
 .footer img {
   width: 26%;

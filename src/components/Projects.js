@@ -1,85 +1,16 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import noEntry from "../assets/img/project/NoEntry.jpg";
-import KF from "../assets/img/project/kitchen.jpg";
-import CG from "../assets/img/project/CG.png";
-import gol from "../assets/img/project/gol.png";
-import ridesharing from "../assets/img/project/ridesharing.png";
-import bse from "../assets/img/project/bse.png";
-import scotland_yard from "../assets/img/project/scotland-yard.png";
-import cgi from "../assets/img/project/cgi.jpg"
-import amazon from "../assets/img/project/amazon.png"
-import inductosense from "../assets/img/project/inductosense.jpeg"
-
-
-
+import { projectsList } from "./ProjectInfo";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+
+
 export const Projects = () => {
-  const uniProjects = [
-    {
-      title: "Ridesharing Simulation",
-      description: " Developed a simulation model of a spontaneous ridesharing system to implement different strategies and used Python to perform statistical analysis for evaluation",
-      imgUrl: ridesharing,
-    },
-    {
-      title: "Olympoid",
-      description: "3D Olympoid modelled and animated pair figure skating in Maya",
-      imgUrl: cgi,
-    },
-    {
-      title: "Kitchen Feud",
-      description: "online multiplayer kitchen game using Unity, involving competitive gameplay against other kitchen teams while allowing for strategic sabotage",
-      imgUrl: KF,
-    },
-    {
-      title: "BSE",
-      description: "Worked with the Bristol Stock Exchange to determine the parameters that produce the highest revenue. Then extended the code by adding a new adaptive trader that proved to perform better",
-      imgUrl: bse,
-    },
-    {
-      title: "No Entry Sign Detector",
-      description: "Built and trained a detector to detect instances of No Entry signs in images using opencv library",
-      imgUrl: noEntry,
-    },
-    {
-      title: "C++ Graphics Renderer",
-      description: "A C++ program that renders a Cornell Box scene using various techniques, including wireframing, rasterisations and ray tracing.s",
-      imgUrl: CG,
-    },
-    {
-      title: "History Trails",
-      description: "interface/web app for museum visitors about display objects by fetching JSON-encoded data from open datasets and using Agile development and Spring Boot framework",
-      imgUrl: noEntry,
-    },
-    {
-      title: "Game of Life",
-      description: "parallel and distributed implementations of Conway’s Game of Life in Go, using remote-procedure-calls to link multiple AWS nodes",
-      imgUrl: gol,
-    },
-   
-    {
-      title: "Scotland Yard",
-      description: "Wrote a Java program to allow users to play Scotland Yard board game using OOP paradigms and design patterns",
-      imgUrl: scotland_yard,
-    },
-  ];
 
-  const WorkExp = [
-    {
-      title: "Amazon",
-      description: "Automated the selection of Getty images to purchase for the purposes of display on Alex devices, by targeting high-volume failing entity requests and employing serverless architecture",
-      imgUrl: amazon,
-    },
-    {
-      title: "Inductosense",
-      description: "Displayed raw data in various formats using React and Typescript to provide clear and informative visualisations which highlighted trends and problematic data points",
-      imgUrl: inductosense,
-    },
-  ];
-
+  const uniProjects = projectsList.filter((project) => project.type === 'uni');
+  const WorkExp = projectsList.filter((project) => project.type === 'work_exp');
 
   return (
     <section className="project" id="projects">
