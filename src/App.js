@@ -24,9 +24,9 @@ function Home(){
 function Projs(){
   return(
     <div className="Projs">
-      {/* <NavBar /> */}
+      <NavBar />
       <About />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

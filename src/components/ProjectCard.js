@@ -2,7 +2,7 @@ import { Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 
-export const ProjectCard = ({ title, description, imgUrl, projectId}) => {
+export const ProjectCard = ({ title, summary, imgUrl, projectId}) => {
   const navigate = useNavigate();
 
   return (
@@ -11,7 +11,7 @@ export const ProjectCard = ({ title, description, imgUrl, projectId}) => {
         <img src={imgUrl} />
         <div className="proj-txtx">
           <h4>{title}</h4>
-          <span>{description}</span>
+          <span>{summary}</span>
           <button onClick={() => navigate(`/projects/${projectId}`)}>
             Read More
           </button>
