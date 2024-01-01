@@ -15,7 +15,7 @@ export const projectsList = [
     {
       title: "Ridesharing Simulation",
       description: "Enhanced a spontaneous ridesharing system by creating a simulation model using the Mesa package in Python, implementing diverse strategies, and conducting statistical analysis for comprehensive evaluation.",
-      summary: "Developed a simulation model of a spontaneous ridesharing system to implement different strategies and used Python to perform statistical analysis for evaluation",
+      summary: "Developed a simulation model of a spontaneous ridesharing system and evaluated different strategies",
       imgUrl: ridesharing,
       projectId: 'ridesharing',
       type: 'uni',
@@ -47,7 +47,7 @@ export const projectsList = [
     {
       title: "Bristol Stock Exchange",
       description: "Worked with the Bristol Stock Exchange to determine the parameters that produce the highest revenue. Then extended the code by adding a new adaptive trader that proved to perform better",
-      summary: "Worked with the Bristol Stock Exchange to determine the parameters that produce the highest revenue. Then extended the code by adding a new adaptive trader that proved to perform better",
+      summary: "Worked with the Bristol Stock Exchange to determine the parameters that produce the highest revenue.",
       imgUrl: bse,
       projectId: 'bse',
       type: 'uni',
@@ -58,7 +58,7 @@ export const projectsList = [
     {
       title: "No Entry Sign Detector",
       description: "Built and trained a detector to detect instances of No Entry signs in images using the opencv library",
-      summary: "Built and trained a detector to detect instances of No Entry signs in images using opencv library",
+      summary: "Built and trained a detector to detect instances of No Entry signs in images.",
       imgUrl: noEntry,
       projectId: 'no_entry',
       type: 'uni',
@@ -69,7 +69,7 @@ export const projectsList = [
     {
       title: "C++ Graphics Renderer",
       description: "A C++ program that renders a Cornell Box scene using various techniques, including wireframing, rasterisations and ray tracing.",
-      summary: "A C++ program that renders a Cornell Box scene using various techniques, including wireframing, rasterisations and ray tracing.",
+      summary: "A graphic renderer written in C++",
       imgUrl: CG,
       projectId: 'cornell',
       type: 'uni',
@@ -113,7 +113,7 @@ export const projectsList = [
     {
       title: "Amazon",
       description: "Automated the selection of Getty images to purchase for the purposes of display on Alex devices, by targeting high-volume failing entity requests and employing serverless architecture",
-      summary: "Automated the selection of Getty images to purchase for the purposes of display on Alex devices, by targeting high-volume failing entity requests and employing serverless architecture",
+      summary: "Automated the selection of Getty images to purchase for the purposes of display on Alex devices.",
       imgUrl: amazon,
       projectId: 'amazon',
       type: 'work_exp',
@@ -123,7 +123,7 @@ export const projectsList = [
     {
       title: "Inductosense",
       description: "Displayed raw data in various formats using React and Typescript to provide clear and informative visualisations which highlighted trends and problematic data points",
-      summary: "Displayed raw data in various formats using React and Typescript to provide clear and informative visualisations which highlighted trends and problematic data points",
+      summary: "Displayed raw pipe corrosion data in various formats using React and Typescript",
       imgUrl: inductosense,
       projectId: 'inductosense',
       type: 'work_exp',
