@@ -3,9 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { Projects } from "./components/Projects";
-import { Footer } from "./components/Footer";
 import { About } from "./components/About";
-
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -16,7 +14,6 @@ function Home(){
       <NavBar />
       <Banner />
       <Projects />
-      <Footer />
     </div>
   );
 }
@@ -26,7 +23,6 @@ function Projs(){
     <div className="Projs">
       <NavBar />
       <About />
-      <Footer />
     </div>
   );
 }

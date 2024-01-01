@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-
 import { useParams} from 'react-router-dom';
 import { projectsList } from "./ProjectInfo";
 
@@ -23,10 +22,11 @@ export const About = () => {
         <img src={foundProject['imgUrl']} />
         <div className='dates'>{foundProject['date']}</div>
         <span>{foundProject['description']}</span>
-        {foundProject['code'] && ( // only renders if exists
-            <button onClick={() => navigate(foundProject['code'])} className='codeButton'>Code</button>
+        {foundProject['code'] && (
+          <a href={foundProject['code']} className="code-link">
+             <button className="codeButton">Code</button>
+          </a>
         )}
-
       </div>
   );
 };

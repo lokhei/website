@@ -212,8 +212,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  padding: 130px 0 100px 0;
+  background-image: url('./assets/img/bg.avif');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -226,6 +226,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
+  margin-top: 60px;
   display: inline-block;
 }
 .banner h1 {
@@ -239,6 +240,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner img {
   animation: updown 3s linear infinite;
+  width: 60%;
 }
 @keyframes updown {
     0% {
@@ -260,7 +262,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #1e0945;
+  opacity: 0.8;
+  margin-top: 0;
 }
 .project h2 {
 	font-size: 45px;
@@ -466,29 +470,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .backButton:hover {
   background-color: #0056b3;
-}
-
-
-/************ Footer ************/
-.footer {
-  padding: 20px 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-}
-
-.footer-content {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end; /* Updated to move content to the right */
-}
-
-.footer a{
-  margin: 5px;
-}
-
-.footer img {
-  width: 26%;
 }

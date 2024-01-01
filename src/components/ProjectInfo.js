@@ -14,7 +14,7 @@ import history_trails from "../assets/img/project/history_trails.png"
 export const projectsList = [
     {
       title: "Ridesharing Simulation",
-      description: "Developed a simulation model of a spontaneous ridesharing system to implement different strategies and used Python to perform statistical analysis for evaluation",
+      description: "Enhanced a spontaneous ridesharing system by creating a simulation model using the Mesa package in Python, implementing diverse strategies, and conducting statistical analysis for comprehensive evaluation.",
       summary: "Developed a simulation model of a spontaneous ridesharing system to implement different strategies and used Python to perform statistical analysis for evaluation",
       imgUrl: ridesharing,
       projectId: 'ridesharing',
@@ -25,20 +25,18 @@ export const projectsList = [
     },
     {
       title: "Olympoid",
-      description: "3D Olympoid modelled and animated pair figure skating in Maya", 
+      description: "Designed, modelled, rigged and animated pair figure skating in Maya", 
       summary: "3D Olympoid modelled and animated pair figure skating in Maya",
       imgUrl: cgi,
       projectId: 'olympoid',
       type: 'uni',
       code: 'https://github.com/lokhei/Olympoid',
       date: 'Jan - May 2023'
-
-
     },
     {
       title: "Kitchen Feud",
-      description: "Online multiplayer kitchen game using Unity, involving competitive gameplay against other kitchen teams while allowing for strategic sabotage",
-      summary: "Online multiplayer kitchen game using Unity, involving competitive gameplay against other kitchen teams while allowing for strategic sabotage",
+      description: "Developed an online multiplayer kitchen game using Unity, featuring competitive gameplay against other kitchen teams with opportunities for strategic sabotage. Designed and created custom assets and models, and implemented complex particle systems and voice chat functionality for an immersive gaming experience.",
+      summary: "Online multiplayer kitchen game using Unity",
       imgUrl: KF,
       projectId: 'kitchen_feud',
       type: 'uni',
@@ -59,7 +57,7 @@ export const projectsList = [
     },
     {
       title: "No Entry Sign Detector",
-      description: "Built and trained a detector to detect instances of No Entry signs in images using opencv library",
+      description: "Built and trained a detector to detect instances of No Entry signs in images using the opencv library",
       summary: "Built and trained a detector to detect instances of No Entry signs in images using opencv library",
       imgUrl: noEntry,
       projectId: 'no_entry',
@@ -81,8 +79,8 @@ export const projectsList = [
     },
     {
       title: "History Trails",
-      description: "interface/web app for museum visitors about display objects by fetching JSON-encoded data from open datasets and using Agile development and Spring Boot framework",
-      summary: "interface/web app for museum visitors about display objects by fetching JSON-encoded data from open datasets and using Agile development and Spring Boot framework",
+      description: "Interface/web app for museum visitors about display objects by fetching JSON-encoded data from open datasets and using Agile development and Spring Boot framework",
+      summary: "Interface/web app for museum visitors about display objects",
       imgUrl: history_trails,
       projectId: 'history_trails',
       type: 'uni',
@@ -92,8 +90,8 @@ export const projectsList = [
     },
     {
       title: "Game of Life",
-      description: "parallel and distributed implementations of Conway’s Game of Life in Go, using remote-procedure-calls to link multiple AWS nodes",
-      summary: "parallel and distributed implementations of Conway’s Game of Life in Go, using remote-procedure-calls to link multiple AWS nodes",
+      description: "Parallel and distributed implementations of Conway’s Game of Life in Go, using remote-procedure-calls to link multiple AWS nodes",
+      summary: "Parallel and distributed implementations of Conway’s Game of Life in Go",
       imgUrl: gol,
       projectId: 'gol',
       type: 'uni',
@@ -104,7 +102,7 @@ export const projectsList = [
     {
       title: "Scotland Yard",
       description: "Wrote a Java program to allow users to play Scotland Yard board game using OOP paradigms and design patterns",
-      summary: "Wrote a Java program to allow users to play Scotland Yard board game using OOP paradigms and design patterns",
+      summary: "Java program to allow users to play Scotland Yard board game",
       imgUrl: scotland_yard,
       projectId: 'scotland_yard',
       type: 'uni',
