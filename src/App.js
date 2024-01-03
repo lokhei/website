@@ -28,7 +28,7 @@ function Projs(){
 }
 function App() {
   return (
-    <Router>
+    <Router basename="/website">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects/:projectId" element={<Projs/>} />
