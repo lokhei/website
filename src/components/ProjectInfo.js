@@ -14,7 +14,10 @@ import history_trails from "../assets/img/project/history_trails.png"
 export const projectsList = [
     {
       title: "Ridesharing Simulation",
-      description: "Enhanced a spontaneous ridesharing system by creating a simulation model using the Mesa package in Python, implementing diverse strategies, and conducting statistical analysis for comprehensive evaluation.",
+      description: "Developed a dynamic spontaneous ridesharing system by creating simulation model using the Mesa package in Python.\
+      This project implemented a range of ridesharing strategies employing efficient greedy algorithms, and offers flexibility for\
+      both single and multi-passenger systems. A comprehensive evaluation was conducted through statistical analyses, comparing the\
+      effectiveness of different strategies as measured by a range of metrics.",
       summary: "Developed a simulation model of a spontaneous ridesharing system and evaluated different strategies",
       imgUrl: ridesharing,
       projectId: 'ridesharing',
@@ -35,8 +38,11 @@ export const projectsList = [
     },
     {
       title: "Kitchen Feud",
-      description: "Developed an online multiplayer kitchen game using Unity, featuring competitive gameplay against other kitchen teams with opportunities for strategic sabotage. Designed and created custom assets and models, and implemented complex particle systems and voice chat functionality for an immersive gaming experience.",
-      summary: "Online multiplayer kitchen game using Unity",
+      description: "Led the development of a multiplayer web browser game, \"Kitchen Feud,\" in which two teams compete\
+      to operate superior restaurants. This game offers collaborative cooking experiences through engaging minigames,\
+      with the option to strategically sabotage opposing teams. Standout features include the competitive gameplay, custom-made\
+      assets, sophisticated particle systems, and voice chat functionality for an immersive gaming experience.",
+      summary: "Online multiplayer competitive kitchen game using Unity",
       imgUrl: KF,
       projectId: 'kitchen_feud',
       type: 'uni',
@@ -57,7 +63,9 @@ export const projectsList = [
     },
     {
       title: "No Entry Sign Detector",
-      description: "Built and trained a detector to detect instances of No Entry signs in images using the opencv library",
+      description: "This project uses the OpenCV library to detect No entry signs in images.\
+      Different pre-processing techniques are used and the detection algorithm relies on the Viola-Jones detector,\
+      along with the circle Hough transform to filter out false positives.",
       summary: "Built and trained a detector to detect instances of No Entry signs in images.",
       imgUrl: noEntry,
       projectId: 'no_entry',
@@ -68,8 +76,12 @@ export const projectsList = [
     },
     {
       title: "C++ Graphics Renderer",
-      description: "A C++ program that renders a Cornell Box scene using various techniques, including wireframing, rasterisations and ray tracing.",
-      summary: "A graphic renderer written in C++",
+      description: "A C++ program that renders a Cornell Box scene using wireframing, rasterisation and ray tracing.\
+      The renderer includes capabilities like material file loading, texture mapping, shadows,\
+      and a range of lighting techniques including ambient, diffuse, and specular lighting.\
+      The keyboard controls allow dynamic interaction with the scene, enabling translation and rotation of the camera,\
+      switching between different rendering modes and lighting effects with the flexibility to export images and create animated videos.",
+      summary: "A graphic renderer written in C++ that supports wireframing, rasterisation and ray tracing",
       imgUrl: CG,
       projectId: 'cornell',
       type: 'uni',
@@ -79,7 +91,9 @@ export const projectsList = [
     },
     {
       title: "History Trails",
-      description: "Interface/web app for museum visitors about display objects by fetching JSON-encoded data from open datasets and using Agile development and Spring Boot framework",
+      description: "A group project developed for the Bristol Museum and M Shed in response to the pandemic.\
+      \"History Trails\" is a web app, that serves as a replacement for the legacy touch screen digital interpretation system,\
+      providing museum visitors with information about display objects by fetching JSON-encoded data from open datasets and using the Spring Boot framework.",
       summary: "Interface/web app for museum visitors about display objects",
       imgUrl: history_trails,
       projectId: 'history_trails',
@@ -90,7 +104,10 @@ export const projectsList = [
     },
     {
       title: "Game of Life",
-      description: "Parallel and distributed implementations of Conway’s Game of Life in Go, using remote-procedure-calls to link multiple AWS nodes",
+      description: "Implemented Conway's Game of Life in Go: a cellular automaton governed solely\
+      by its initial state. The project comprises a dual implementation, featuring a concurrent version\
+      utilising multiple worker goroutines on a single machine, and a distributed simulation that leverages\
+      remote-procedure-calls to connect multiple AWS nodes.",
       summary: "Parallel and distributed implementations of Conway’s Game of Life in Go",
       imgUrl: gol,
       projectId: 'gol',
@@ -112,7 +129,9 @@ export const projectsList = [
     },
     {
       title: "Amazon",
-      description: "Automated the selection of Getty images to purchase for the purposes of display on Alex devices, by targeting high-volume failing entity requests and employing serverless architecture",
+      description: "Automating the selection of Getty images to purchase for the purposes of display on Alex devices using serverless architecture.\
+      The primary focus was on targeting high-volume failing entity requests. This was achieved by querying Athena logs for failing entity requests,\
+      translating them into human-readable requests, and querying the Getty API based on the category of the entity.",
       summary: "Automated the selection of Getty images to purchase for the purposes of display on Alex devices.",
       imgUrl: amazon,
       projectId: 'amazon',
@@ -122,7 +141,9 @@ export const projectsList = [
     },
     {
       title: "Inductosense",
-      description: "Displayed raw data in various formats using React and Typescript to provide clear and informative visualisations which highlighted trends and problematic data points",
+      description: "Transforming raw pipe corrosion data into actionable insights using React and Typescript.\
+      The objective was to offer clear and informative visualizations that highlighted trends and identified problematic\
+      data points within the dataset, contributing to a comprehensive analysis of pipe corrosion patterns.",
       summary: "Displayed raw pipe corrosion data in various formats using React and Typescript",
       imgUrl: inductosense,
       projectId: 'inductosense',
