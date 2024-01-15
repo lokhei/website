@@ -28,7 +28,9 @@ export const projectsList = [
     },
     {
       title: "Olympoid",
-      description: "Designed, modelled, rigged and animated pair figure skating in Maya", 
+      description: "Used Autodesk Maya to design and animate a pair of robotic droid characters (known as Olympoids) competing in a pair figure skating\
+      Olympic event. The project encompassed the entire production pipeline, starting with the inception of a unique character design,\
+      followed by building the geometry, adding lighting and shading to the model, and finally rigging and animating it.", 
       summary: "3D Olympoid modelled and animated pair figure skating in Maya",
       imgUrl: cgi,
       projectId: 'olympoid',
@@ -52,8 +54,10 @@ export const projectsList = [
     },
     {
       title: "Bristol Stock Exchange",
-      description: "Worked with the Bristol Stock Exchange to determine the parameters that produce the highest revenue. Then extended the code by adding a new adaptive trader that proved to perform better",
-      summary: "Worked with the Bristol Stock Exchange to determine the parameters that produce the highest revenue.",
+      description: "Leveraged the Bristol Stock Exchange, a simulation of an electronic financial exchange, to assess the performance\
+      of the Parameterised Response Differential Evolution (PRDE) adaptive trading strategy, optimising its parameters across diverse\
+      market conditions. The PRDE implementation was then extended by incorporating a greedy variant of Differential Evolution, and subsequently evaluated.",
+      summary: "Evaluated the PRDE adaptive trading strategy using the Bristol Stock Exchange simulation",
       imgUrl: bse,
       projectId: 'bse',
       type: 'uni',
@@ -66,7 +70,7 @@ export const projectsList = [
       description: "This project uses the OpenCV library to detect No entry signs in images.\
       Different pre-processing techniques are used and the detection algorithm relies on the Viola-Jones detector,\
       along with the circle Hough transform to filter out false positives.",
-      summary: "Built and trained a detector to detect instances of No Entry signs in images.",
+      summary: "Built and trained a detector to detect instances of No Entry signs in images",
       imgUrl: noEntry,
       projectId: 'no_entry',
       type: 'uni',

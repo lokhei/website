@@ -23,7 +23,7 @@ export const About = () => {
         <div className='dates'>{foundProject['date']}</div>
         <span>{foundProject['description']}</span>
         {foundProject['code'] && (
-          <a href={foundProject['code']} className="code-link">
+          <a href={foundProject['code']} className="code-link" target="_blank">
              <button className="codeButton">Code</button>
           </a>
         )}
