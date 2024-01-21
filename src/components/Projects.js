@@ -8,7 +8,7 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
   const [activeKey, setActiveKey] = useState(() => {
     // Retrieve last selected eventKey from localStorage or set a default
-    return localStorage.getItem('lastSelectedEventKey') || 'uni';
+    return localStorage.getItem('lastSelectedEventKey') || 'workExp';
   });
 
   const handleSelect = (key) => {
@@ -35,10 +35,10 @@ export const Projects = () => {
                   <Tab.Container id="projects-tabs" activeKey={activeKey} onSelect={handleSelect}>
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
-                        <Nav.Link eventKey="uni">Uni Projects</Nav.Link>
+                        <Nav.Link eventKey="workExp">Work Experience</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="workExp">Work Experience</Nav.Link>
+                        <Nav.Link eventKey="uni">Uni Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="other">Other</Nav.Link>
