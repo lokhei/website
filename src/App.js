@@ -6,6 +6,7 @@ import { Projects } from "./components/Projects";
 import { About } from "./components/About";
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function Home(){
@@ -29,6 +30,7 @@ function Projs(){
 function App() {
   return (
     <Router basename="/website">
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects/:projectId" element={<Projs/>} />

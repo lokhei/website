@@ -9,6 +9,7 @@ import cgi from "../assets/img/project/cgi.jpg"
 import amazon from "../assets/img/project/amazon.png"
 import inductosense from "../assets/img/project/inductosense.jpeg"
 import history_trails from "../assets/img/project/history_trails.png"
+import tpicap from "../assets/img/project/tp_icap.jpeg"
 
 
 export const projectsList = [
@@ -132,6 +133,21 @@ export const projectsList = [
 
     },
     {
+      title: "TP ICAP",
+      description: ["Collaborated with external AWS team to prototype a chatbot that leveraged Large Language Models to retrieve\
+      information from the Configuration Management Database (CMDB). This will result in a streamlined process that ensures swift\
+      access to critical data for fellow engineers, e.g., when troubleshooting problematic servers.",
+      "Actively maintaining and improving the CMDB and associated tooling by collaborating with stakeholders. Key accomplishments\
+      include adding queuing mechanisms for increased resilience, and implementing an automated process to flag end-of-life hardware\
+      and operating systems across all applications, thus facilitating more informed decision-making on system upgrades."],
+      summary: "Automated the selection of Getty images to purchase for the purposes of display on Alex devices.",
+      imgUrl: tpicap,
+      projectId: 'tpicap',
+      job_title: 'Associate Software Engineer',
+      type: 'work_exp',
+      date: 'Sep 2023 - Present'
+    },
+    {
       title: "Amazon",
       description: "Automating the selection of Getty images to purchase for the purposes of display on Alex devices using serverless architecture.\
       The primary focus was on targeting high-volume failing entity requests. This was achieved by querying Athena logs for failing entity requests,\
@@ -139,6 +155,7 @@ export const projectsList = [
       summary: "Automated the selection of Getty images to purchase for the purposes of display on Alex devices.",
       imgUrl: amazon,
       projectId: 'amazon',
+      job_title: 'Software Development Engineering Intern',
       type: 'work_exp',
       date: 'June - Sep 2022'
 
@@ -152,6 +169,7 @@ export const projectsList = [
       imgUrl: inductosense,
       projectId: 'inductosense',
       type: 'work_exp',
+      job_title: 'Software Engineering Intern',
       date: 'July - Sep 2021'
 
     },
