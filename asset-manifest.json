@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.cbfad02d.css",
+    "main.css": "/website/static/css/main.1b0e4116.css",
     "main.js": "/website/static/js/main.71020b9f.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
     "static/media/scotland-yard.png": "/website/static/media/scotland-yard.d4dbdc9565bcd0642e2c.png",
@@ -21,12 +21,12 @@
     "static/media/github-icon.svg": "/website/static/media/github-icon.04be58c17b3d5e9744424d414240dd85.svg",
     "static/media/linkedin-icon.svg": "/website/static/media/linkedin-icon.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "index.html": "/website/index.html",
-    "main.cbfad02d.css.map": "/website/static/css/main.cbfad02d.css.map",
+    "main.1b0e4116.css.map": "/website/static/css/main.1b0e4116.css.map",
     "main.71020b9f.js.map": "/website/static/js/main.71020b9f.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbfad02d.css",
+    "static/css/main.1b0e4116.css",
     "static/js/main.71020b9f.js"
   ]
 }
