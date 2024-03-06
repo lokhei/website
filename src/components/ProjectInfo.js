@@ -140,7 +140,7 @@ export const projectsList = [
       "Actively maintaining and improving the CMDB and associated tooling by collaborating with stakeholders. Key accomplishments\
       include adding queuing mechanisms for increased resilience, and implementing an automated process to flag end-of-life hardware\
       and operating systems across all applications, thus facilitating more informed decision-making on system upgrades."],
-      summary: "Automated the selection of Getty images to purchase for the purposes of display on Alex devices.",
+      summary: "Enhancing capabilities of the Configuration Management Database (CMDB) and associated tooling",
       imgUrl: tpicap,
       projectId: 'tpicap',
       job_title: 'Associate Software Engineer',
