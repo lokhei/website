@@ -10,6 +10,8 @@ import amazon from "../assets/img/project/amazon.png"
 import inductosense from "../assets/img/project/inductosense.jpeg"
 import history_trails from "../assets/img/project/history_trails.png"
 import tpicap from "../assets/img/project/tp_icap.jpeg"
+import dup_images from "../assets/img/project/duplicate_images.png"
+
 
 
 export const projectsList = [
@@ -173,4 +175,17 @@ export const projectsList = [
       date: 'July - Sep 2021'
 
     },
+    {
+      title: "Duplicate Photo Deleter",
+      description: "This project is a React-based web application for managing and deleting duplicate images. \
+      The application allows users to select images or a local directory, group duplicate images using the VGG16 model, \
+      and delete selected images.",
+      summary: "Web application for managing and deleting duplicate images using the VGG16 model",
+      imgUrl: dup_images,
+      projectId: 'photo_dedup',
+      type: 'other',
+      code: 'https://github.com/lokhei/photo_dedup.git',
+      date: '2024'
+    },
+   
   ];

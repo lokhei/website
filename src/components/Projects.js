@@ -22,6 +22,8 @@ export const Projects = () => {
 
   const uniProjects = projectsList.filter((project) => project.type === 'uni');
   const workExpProjects = projectsList.filter((project) => project.type === 'work_exp');
+  const otherProjects = projectsList.filter((project) => project.type === 'other');
+
 
   return (
     <section className="project" id="projects">
@@ -60,7 +62,11 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="other">
-                        <p>Coming Soon</p>
+                        <Row>
+                          {otherProjects.map((project, index) => (
+                              <ProjectCard key={index} {...project} />
+                          ))}
+                        </Row>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
