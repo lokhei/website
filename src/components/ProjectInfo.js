@@ -10,7 +10,9 @@ import amazon from "../assets/img/project/amazon.png"
 import inductosense from "../assets/img/project/inductosense.jpeg"
 import history_trails from "../assets/img/project/history_trails.png"
 import tpicap from "../assets/img/project/tp_icap.jpeg"
-import dup_images from "../assets/img/project/duplicate_images.png"
+import dup_image from "../assets/img/project/duplicate_images.png"
+import scanner_image from "../assets/img/project/doc_scanner.png"
+
 
 
 
@@ -181,11 +183,25 @@ export const projectsList = [
       The application allows users to select images or a local directory, group duplicate images using the VGG16 model, \
       and delete selected images.",
       summary: "Web application for managing and deleting duplicate images using the VGG16 model",
-      imgUrl: dup_images,
+      imgUrl: dup_image,
       projectId: 'photo_dedup',
       type: 'other',
       code: 'https://github.com/lokhei/photo_dedup.git',
       date: '2024'
     },
+    {
+      title: "Document Scanner",
+      description: "This project is a Python-based application for scanning documents using OpenCV. \
+      The application allows users to select images or use a webcam feed to capture documents, \
+      pre-process the images, apply perspective transformations to straighten the document, detect text regions, \
+      and save the resulting images.",
+      summary: "Python application for scanning documents by pre-processing the image, applying perspective transformations, and detecting text regions using OpenCV",
+      imgUrl: scanner_image,
+      projectId: 'document_scanner',
+      type: 'other',
+      code: 'https://github.com/lokhei/doc-scanner.git',
+      date: '2024'
+    },
+    
    
   ];
