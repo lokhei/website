@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/website/static/css/main.1b0e4116.css",
-    "main.js": "/website/static/js/main.73ee056f.js",
+    "main.js": "/website/static/js/main.d74cf78e.js",
     "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
     "static/media/scotland-yard.png": "/website/static/media/scotland-yard.d4dbdc9565bcd0642e2c.png",
     "static/media/history_trails.png": "/website/static/media/history_trails.3376fe34a6cbef1a01ff.png",
     "static/media/cgi.jpg": "/website/static/media/cgi.99f98e84e42ff2f81cd4.jpg",
+    "static/media/doc_scanner.png": "/website/static/media/doc_scanner.29469d20e67c8abd85b7.png",
     "static/media/NoEntry.jpg": "/website/static/media/NoEntry.d4379edadfe98df3cdca.jpg",
     "static/media/banner.jpg": "/website/static/media/banner.c0fbb9bf7df98f578e89.jpg",
     "static/media/duplicate_images.png": "/website/static/media/duplicate_images.9da1c8f43e0c149b7352.png",
@@ -23,11 +24,11 @@
     "static/media/linkedin-icon.svg": "/website/static/media/linkedin-icon.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "index.html": "/website/index.html",
     "main.1b0e4116.css.map": "/website/static/css/main.1b0e4116.css.map",
-    "main.73ee056f.js.map": "/website/static/js/main.73ee056f.js.map",
+    "main.d74cf78e.js.map": "/website/static/js/main.d74cf78e.js.map",
     "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b0e4116.css",
-    "static/js/main.73ee056f.js"
+    "static/js/main.d74cf78e.js"
   ]
 }
