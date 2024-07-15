@@ -394,17 +394,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-.proj-txtx .tag {
-  display: inline-block;
-  background: #4187d3;
-  color: #fff;
-  padding: 5px 10px;
-  margin: 5px 5px 5px 0;
-  border-radius: 3px;
-  font-size: 10px;
+
+.proj-txtx .tags {
+  margin: 5px 10px;
 }
 
-
+.proj-txtx .tag {
+  display: inline-block;
+  color: #fff;
+  padding: 5px;
+  margin: 5px 15px 5px 0;
+  border-radius: 5px;
+  font-size: 10px;
+  border: 2px solid #999b9c; 
+}
 
 .moreButton {
   margin: 5px 0 5px 0;
@@ -462,6 +465,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .projectDetail span {
   margin-bottom: 10px;
+}
+
+
+.projectDetail .tags {
+  margin: 5px 0;
+  display: flex;
+  justify-content: flex-start; /* Align items to the start (left) */
+  flex-wrap: wrap; /* Ensure tags wrap if they exceed the container width */
+}
+
+.projectDetail .tag {
+  display: inline-block;
+  color: #fff;
+  padding: 5px;
+  margin: 5px 15px 5px 0;
+  border-radius: 5px;
+  font-size: 10px;
+  border: 2px solid #4187d3; 
 }
 
 

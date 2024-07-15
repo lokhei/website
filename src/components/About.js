@@ -37,6 +37,13 @@ export const About = () => {
         ) : (
           <div>{foundProject['description']}</div>
         )}
+        {foundProject['tags'] && foundProject['tags'].length > 0 && (
+          <div className='tags'>
+            {foundProject['tags'].map((tag, index) => (
+              <span key={index} className='tag'>{tag}</span>
+            ))}
+          </div>
+        )}
         {foundProject['code'] && (
           <a href={foundProject['code']} className="code-link" target="_blank">
              <button className="codeButton">Code</button>

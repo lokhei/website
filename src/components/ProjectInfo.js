@@ -11,7 +11,9 @@ import inductosense from "../assets/img/project/inductosense.jpeg"
 import history_trails from "../assets/img/project/history_trails.png"
 import tpicap from "../assets/img/project/tp_icap.jpeg"
 import dup_image from "../assets/img/project/duplicate_images.png"
-import scanner_image from "../assets/img/project/doc_scanner.png"
+import scanner from "../assets/img/project/doc_scanner.png"
+import portfolio from "../assets/img/project/portfolio.png"
+
 
 
 
@@ -154,7 +156,7 @@ export const projectsList = [
       include adding queuing mechanisms for increased resilience, and implementing an automated process to flag end-of-life hardware\
       and operating systems across all applications, thus facilitating more informed decision-making on system upgrades."],
       summary: "Enhancing capabilities of the Configuration Management Database (CMDB) and associated tooling",
-      tags: ["Python", "React", "JavaScript", "AWS", "MySQL"],
+      tags: ["Python", "React", "JavaScript", "AWS", "CDK", "MySQL"],
       imgUrl: tpicap,
       projectId: 'tpicap',
       job_title: 'Associate Software Engineer',
@@ -167,7 +169,7 @@ export const projectsList = [
       The primary focus was on targeting high-volume failing entity requests. This was achieved by querying Athena logs for failing entity requests,\
       translating them into human-readable requests, and querying the Getty API based on the category of the entity.",
       summary: "Automated the selection of Getty images to purchase for the purposes of display on Alex devices.",
-      tags: ["Python", "AWS"],
+      tags: ["Python", "AWS", "CDK"],
       imgUrl: amazon,
       projectId: 'amazon',
       job_title: 'Software Development Engineering Intern',
@@ -199,7 +201,7 @@ export const projectsList = [
       imgUrl: dup_image,
       projectId: 'photo_dedup',
       type: 'other',
-      code: 'https://github.com/lokhei/photo_dedup.git',
+      code: 'https://github.com/lokhei/photo_dedup',
       date: '2024'
     },
     {
@@ -210,10 +212,24 @@ export const projectsList = [
       and save the resulting images.",
       summary: "Python application for scanning documents by pre-processing the image, applying perspective transformations, and detecting text regions using OpenCV",
       tags: ["Python", "OpenCV"],
-      imgUrl: scanner_image,
+      imgUrl: scanner,
       projectId: 'document_scanner',
       type: 'other',
-      code: 'https://github.com/lokhei/doc-scanner.git',
+      code: 'https://github.com/lokhei/doc-scanner',
+      date: '2024'
+    },
+
+    {
+      title: "Personal Portfolio",
+      description: "This project is a personal portfolio website built using React and Bootstrap. The application\
+      showcases various projects, including details about the technologies used, descriptions, and links to further information.\
+      The site includes dynamic routing, responsive design, and animations for a modern and professional presentation.",
+      summary: "React-based personal portfolio website featuring project showcases",
+      tags: ["React", "Bootstrap"],
+      imgUrl: portfolio,
+      projectId: 'portfolio',
+      type: 'other',
+      code: 'https://github.com/lokhei/website',
       date: '2024'
     },
     
