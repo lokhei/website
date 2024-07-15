@@ -338,8 +338,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
-  width: 300px;
-  height: 200px;
+  height: 250px;
 }
 
 .proj-imgbx img {
@@ -394,6 +393,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+
+.proj-txtx .tag {
+  display: inline-block;
+  background: #4187d3;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px 5px 5px 0;
+  border-radius: 3px;
+  font-size: 10px;
+}
+
 
 
 .moreButton {

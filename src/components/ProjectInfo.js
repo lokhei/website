@@ -24,6 +24,7 @@ export const projectsList = [
       both single and multi-passenger systems. A comprehensive evaluation was conducted through statistical analyses, comparing the\
       effectiveness of different strategies as measured by a range of metrics.",
       summary: "Developed a simulation model of a spontaneous ridesharing system and evaluated different strategies",
+      tags: ["Python", "Mesa", "Pandas"],
       imgUrl: ridesharing,
       projectId: 'ridesharing',
       type: 'uni',
@@ -37,6 +38,7 @@ export const projectsList = [
       Olympic event. The project encompassed the entire production pipeline, starting with the inception of a unique character design,\
       followed by building the geometry, adding lighting and shading to the model, and finally rigging and animating it.", 
       summary: "3D Olympoid modelled and animated pair figure skating in Maya",
+      tags: ["Maya"],
       imgUrl: cgi,
       projectId: 'olympoid',
       type: 'uni',
@@ -50,6 +52,7 @@ export const projectsList = [
       with the option to strategically sabotage opposing teams. Standout features include the competitive gameplay, custom-made\
       assets, sophisticated particle systems, and voice chat functionality for an immersive gaming experience.",
       summary: "Online multiplayer competitive kitchen game using Unity",
+      tags: ["Unity", "C#"],
       imgUrl: KF,
       projectId: 'kitchen_feud',
       type: 'uni',
@@ -63,6 +66,7 @@ export const projectsList = [
       of the Parameterised Response Differential Evolution (PRDE) adaptive trading strategy, optimising its parameters across diverse\
       market conditions. The PRDE implementation was then extended by incorporating a greedy variant of Differential Evolution, and subsequently evaluated.",
       summary: "Evaluated the PRDE adaptive trading strategy using the Bristol Stock Exchange simulation",
+      tags: ["Python", "Pandas"],
       imgUrl: bse,
       projectId: 'bse',
       type: 'uni',
@@ -76,6 +80,7 @@ export const projectsList = [
       Different pre-processing techniques are used and the detection algorithm relies on the Viola-Jones detector,\
       along with the circle Hough transform to filter out false positives.",
       summary: "Built and trained a detector to detect instances of No Entry signs in images",
+      tags: ["C++", "OpenCV"],
       imgUrl: noEntry,
       projectId: 'no_entry',
       type: 'uni',
@@ -91,6 +96,7 @@ export const projectsList = [
       The keyboard controls allow dynamic interaction with the scene, enabling translation and rotation of the camera,\
       switching between different rendering modes and lighting effects with the flexibility to export images and create animated videos.",
       summary: "A graphic renderer written in C++ that supports wireframing, rasterisation and ray tracing",
+      tags: ["C++"],
       imgUrl: CG,
       projectId: 'cornell',
       type: 'uni',
@@ -104,6 +110,7 @@ export const projectsList = [
       \"History Trails\" is a web app, that serves as a replacement for the legacy touch screen digital interpretation system,\
       providing museum visitors with information about display objects by fetching JSON-encoded data from open datasets and using the Spring Boot framework.",
       summary: "Interface/web app for museum visitors about display objects",
+      tags: ["Spring Boot", "JavaScript"],
       imgUrl: history_trails,
       projectId: 'history_trails',
       type: 'uni',
@@ -118,6 +125,7 @@ export const projectsList = [
       utilising multiple worker goroutines on a single machine, and a distributed simulation that leverages\
       remote-procedure-calls to connect multiple AWS nodes.",
       summary: "Parallel and distributed implementations of Conway’s Game of Life in Go",
+      tags: ["Go", "AWS"],
       imgUrl: gol,
       projectId: 'gol',
       type: 'uni',
@@ -129,6 +137,7 @@ export const projectsList = [
       title: "Scotland Yard",
       description: "Wrote a Java program to allow users to play Scotland Yard board game using OOP paradigms and design patterns",
       summary: "Java program to allow users to play Scotland Yard board game",
+      tags: ["Java"],
       imgUrl: scotland_yard,
       projectId: 'scotland_yard',
       type: 'uni',
@@ -145,6 +154,7 @@ export const projectsList = [
       include adding queuing mechanisms for increased resilience, and implementing an automated process to flag end-of-life hardware\
       and operating systems across all applications, thus facilitating more informed decision-making on system upgrades."],
       summary: "Enhancing capabilities of the Configuration Management Database (CMDB) and associated tooling",
+      tags: ["Python", "React", "JavaScript", "AWS", "MySQL"],
       imgUrl: tpicap,
       projectId: 'tpicap',
       job_title: 'Associate Software Engineer',
@@ -157,6 +167,7 @@ export const projectsList = [
       The primary focus was on targeting high-volume failing entity requests. This was achieved by querying Athena logs for failing entity requests,\
       translating them into human-readable requests, and querying the Getty API based on the category of the entity.",
       summary: "Automated the selection of Getty images to purchase for the purposes of display on Alex devices.",
+      tags: ["Python", "AWS"],
       imgUrl: amazon,
       projectId: 'amazon',
       job_title: 'Software Development Engineering Intern',
@@ -170,6 +181,7 @@ export const projectsList = [
       The objective was to offer clear and informative visualizations that highlighted trends and identified problematic\
       data points within the dataset, contributing to a comprehensive analysis of pipe corrosion patterns.",
       summary: "Displayed raw pipe corrosion data in various formats using React and Typescript",
+      tags: ["React", "TypeScript", "D3.js"],
       imgUrl: inductosense,
       projectId: 'inductosense',
       type: 'work_exp',
@@ -183,6 +195,7 @@ export const projectsList = [
       The application allows users to select images or a local directory, group duplicate images using the VGG16 model, \
       and delete selected images.",
       summary: "Web application for managing and deleting duplicate images using the VGG16 model",
+      tags: ["React", "Python", "Flask"],
       imgUrl: dup_image,
       projectId: 'photo_dedup',
       type: 'other',
@@ -196,6 +209,7 @@ export const projectsList = [
       pre-process the images, apply perspective transformations to straighten the document, detect text regions, \
       and save the resulting images.",
       summary: "Python application for scanning documents by pre-processing the image, applying perspective transformations, and detecting text regions using OpenCV",
+      tags: ["Python", "OpenCV"],
       imgUrl: scanner_image,
       projectId: 'document_scanner',
       type: 'other',
